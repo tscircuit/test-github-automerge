@@ -1,0 +1,17 @@
+name: Wait and Complete
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  wait-and-complete:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Wait 30 seconds
+      run: sleep 30
+
+    - name: Complete successfully
+      run: echo "Workflow completed successfully!"

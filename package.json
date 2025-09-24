@@ -1,0 +1,13 @@
+{
+  "name": "test-github-automerge",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@tscircuit/runframe": "^0.0.993",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
