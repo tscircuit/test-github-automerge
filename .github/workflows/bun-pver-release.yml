@@ -24,12 +24,18 @@ jobs:
       - run: npm install -g pver
       - run: bun install --frozen-lockfile
       - run: bun run build
-      - run: pver release
+      - run: pver release --no-commit
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.TSCIRCUIT_BOT_GITHUB_TOKEN }}
           GIT_USER_NAME: "tscircuitbot"
           GIT_USER_EMAIL: "tscircuitbot@users.noreply.github.com"
+      - run:
+          git add package.json
+          git commit -m "asd"
+          # create PR
+      - run:
+         gh pr create --auto merge # with checks
       # - name: Trigger upstream repo updates
       #   if: env.UPSTREAM_REPOS && env.PACKAGE_NAMES
       #   run: |
