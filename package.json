@@ -3,6 +3,10 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "build": "tsup-node index.ts --format cjs,esm --outDir dist",
+    "start": "bun run index.ts"
+  },
   "devDependencies": {
     "@tscircuit/circuit-json-util": "^0.0.72",
     "@types/bun": "latest"
