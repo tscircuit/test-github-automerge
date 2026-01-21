@@ -5,7 +5,7 @@
     "": {
       "name": "test-github-automerge",
       "devDependencies": {
-        "@tscircuit/circuit-json-util": "^0.0.76",
+        "@tscircuit/circuit-json-util": "^0.0.77",
         "@types/bun": "latest",
         "tsup": "^8.5.0",
       },
@@ -123,7 +123,7 @@
 
     "@rollup/rollup-win32-x64-msvc": ["@rollup/rollup-win32-x64-msvc@4.52.2", "", { "os": "win32", "cpu": "x64" }, "sha512-ARz+Bs8kY6FtitYM96PqPEVvPXqEZmPZsSkXvyX19YzDqkCaIlhCieLLMI5hxO9SRZ2XtCtm8wxhy0iJ2jxNfw=="],
 
-    "@tscircuit/circuit-json-util": ["@tscircuit/circuit-json-util@0.0.76", "", { "dependencies": { "parsel-js": "^1.1.2" }, "peerDependencies": { "circuit-json": "*", "transformation-matrix": "*", "zod": "3" } }, "sha512-IZJmYo6bMPXhX/7UUOvz6sERF7TFyolaGwXf9keG/XtMwe0ttcppnBMR4LRCpr03XND7y9r563Xu93fXvqhyRA=="],
+    "@tscircuit/circuit-json-util": ["@tscircuit/circuit-json-util@0.0.77", "", { "dependencies": { "parsel-js": "^1.1.2" }, "peerDependencies": { "circuit-json": "*", "transformation-matrix": "*", "zod": "3" } }, "sha512-9hXAQPRQXIBpvxtI16qGZo+Y8de4EBlB4NpYyH8tFU4pqpB1+ZMe0vepeQ098l0bT2htL1wiuke0K8GjoaGuLg=="],
 
     "@types/bun": ["@types/bun@1.2.22", "", { "dependencies": { "bun-types": "1.2.22" } }, "sha512-5A/KrKos2ZcN0c6ljRSOa1fYIyCKhZfIVYeuyb4snnvomnpFqC0tTsEkdqNxbAgExV384OETQ//WAjl3XbYqQA=="],
 
