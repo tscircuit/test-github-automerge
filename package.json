@@ -8,7 +8,7 @@
     "start": "bun run index.ts"
   },
   "devDependencies": {
-    "@tscircuit/circuit-json-util": "^0.0.98",
+    "@tscircuit/circuit-json-util": "^0.0.99",
     "@types/bun": "latest",
     "tsup": "^8.5.0"
   },
