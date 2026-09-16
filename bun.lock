@@ -153,7 +153,7 @@
 
     "chokidar": ["chokidar@4.0.3", "", { "dependencies": { "readdirp": "^4.0.1" } }, "sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA=="],
 
-    "circuit-json": ["circuit-json@0.0.485", "", { "peerDependencies": { "format-si-unit": "*" } }, "sha512-S7jFuCoSLLpBQjYdz3qHQgL63mycuJEUpe5LE0LAqCCqCxSkOt+y7avKvERJQ6ZOzMkZrixmMqUr8crjSFEU9A=="],
+    "circuit-json": ["circuit-json@0.0.491", "", { "peerDependencies": { "format-si-unit": "*" } }, "sha512-3d12+b9dTznvxOukOiBqdMp44SzpmPjulMNeaIVul6PW1VzerQr7SLXn8gu0PZEUG45EZZZqfOH0zk6EGyXt4Q=="],
 
     "color-convert": ["color-convert@2.0.1", "", { "dependencies": { "color-name": "~1.1.4" } }, "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ=="],
 
