@@ -5,7 +5,7 @@
     "": {
       "name": "test-github-automerge",
       "devDependencies": {
-        "@tscircuit/circuit-json-util": "^0.0.133",
+        "@tscircuit/circuit-json-util": "^0.0.134",
         "@types/bun": "latest",
         "tsup": "^8.5.0",
       },
@@ -127,7 +127,7 @@
 
     "@rollup/rollup-win32-x64-msvc": ["@rollup/rollup-win32-x64-msvc@4.52.2", "", { "os": "win32", "cpu": "x64" }, "sha512-ARz+Bs8kY6FtitYM96PqPEVvPXqEZmPZsSkXvyX19YzDqkCaIlhCieLLMI5hxO9SRZ2XtCtm8wxhy0iJ2jxNfw=="],
 
-    "@tscircuit/circuit-json-util": ["@tscircuit/circuit-json-util@0.0.133", "", { "dependencies": { "@flatten-js/core": "^1.6.14", "parsel-js": "^1.1.2" }, "peerDependencies": { "circuit-json": "*", "transformation-matrix": "*", "zod": "3" } }, "sha512-rWn3kLC4XS7dVQqFIbLu3kv30B3kEADY5l5qk5gWcErflrITkySytUe3qVadtbBgMIdMUqrwL/H4gb8ou6adBA=="],
+    "@tscircuit/circuit-json-util": ["@tscircuit/circuit-json-util@0.0.134", "", { "dependencies": { "@flatten-js/core": "^1.6.14", "parsel-js": "^1.1.2" }, "peerDependencies": { "circuit-json": ">=0.0.560", "transformation-matrix": "*", "zod": "3" } }, "sha512-trUEwSHsAVFe6MX1dw/atz3KaIBV0f/ONMj6cRPL9M39rPI6ZmDFIzPl9c80Yj/MblXpeQGBMYq3yyPvM6NpEQ=="],
 
     "@types/bun": ["@types/bun@1.2.22", "", { "dependencies": { "bun-types": "1.2.22" } }, "sha512-5A/KrKos2ZcN0c6ljRSOa1fYIyCKhZfIVYeuyb4snnvomnpFqC0tTsEkdqNxbAgExV384OETQ//WAjl3XbYqQA=="],
 
